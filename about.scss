@@ -1,0 +1,28 @@
+#about{
+  padding-top: 200px;
+  //background: seagreen;
+  .about{
+    background: seagreen;
+    &--nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h1{
+        font-size: 130px;
+        color: #345b73;
+      }
+      &__a{
+        img{
+          width: 300px;
+        }
+      }
+    }
+    &--img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 50px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+#maps{
+  padding-top: 200px;
+  .maps{
+    background: seagreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--title{
+      padding-top: 30px;
+      p{
+        font-size: 40px;
+        color: white;
+      }
+    }
+    &--karta{
+      img{
+        width: 500px;
+      }
+    }
+  }
+  .lion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: seagreen;
+    &--title{
+      h1{
+        font-size:40px ;
+        color: white;
+      }
+      p{
+        font-size: 30px;
+        color: white;
+      }
+    }
+    &--image{
+      display: flex;
+      align-items: center;
+      img{
+        width: 300px;
+        height: 300px;
+      }
+      &__img{
+      }
+    }
+  }
+}

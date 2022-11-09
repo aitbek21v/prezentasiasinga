@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Signika", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#hero {
+  background: url("../img/sin.jpg") no-repeat center/cover;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+#hero .hero--title p {
+  font-size: 20px;
+  text-align: end;
+}
+#hero .hero--title2 {
+  padding-top: 450px;
+}
+#hero .hero--title2 p {
+  text-align: center;
+  font-size: 100px;
+  line-height: 30px;
+}
+
+#about {
+  padding-top: 200px;
+}
+#about .about {
+  background: seagreen;
+}
+#about .about--nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#about .about--nav h1 {
+  font-size: 130px;
+  color: #345b73;
+}
+#about .about--nav__a img {
+  width: 300px;
+}
+#about .about--img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#maps {
+  padding-top: 200px;
+}
+#maps .maps {
+  background: seagreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#maps .maps--title {
+  padding-top: 30px;
+}
+#maps .maps--title p {
+  font-size: 40px;
+  color: white;
+}
+#maps .maps--karta img {
+  width: 500px;
+}
+#maps .lion {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: seagreen;
+}
+#maps .lion--title h1 {
+  font-size: 40px;
+  color: white;
+}
+#maps .lion--title p {
+  font-size: 30px;
+  color: white;
+}
+#maps .lion--image {
+  display: flex;
+  align-items: center;
+}
+#maps .lion--image img {
+  width: 300px;
+  height: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
